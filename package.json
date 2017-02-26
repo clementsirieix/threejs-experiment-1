@@ -1,0 +1,29 @@
+{
+  "name": "threejs-experiment-1",
+  "repository": "git@github.com:clementsirieix/threejs-experiment-1",
+  "author": "Clément Sirieix <clem.sirieix@gmail.com>",
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "http://clementsirieix.github.io/threejs-experiment-1",
+  "devDependencies": {
+    "gh-pages": "^0.12.0",
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.4.2",
+    "react-dat-gui": "^0.0.13",
+    "react-dom": "^15.4.2",
+    "stats-js": "^1.0.0-alpha1",
+    "three": "^0.84.0",
+    "xolor": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
